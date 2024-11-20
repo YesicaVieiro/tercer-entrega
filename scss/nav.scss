@@ -1,0 +1,47 @@
+header {
+  height: 7%;
+  width: 100%;
+  background-color: $color-secondary;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  margin-left: 10%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.amburgesa {
+  border: none;
+  background: none;
+  font-size: $font-size-medium;
+  display: none;
+}
+ist-conteiner-nav {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  transition: background-color 0.3s ease;
+  margin: 0%;
+}
+
+.nav-menu-item {
+  color: $color-tertiary;
+  font-size: $font-size-medium;
+  letter-spacing: 3px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: all 0.4s ease;
+
+  &:hover {
+    border: 2px solid $color-primary;
+  }
+}
+
+i {
+  color: $color-primary;
+  cursor: pointer;
+  margin-top: 20px;
+}
