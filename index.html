@@ -162,12 +162,27 @@
     </section>
 
   </main>
+  <section id="contcto">
+    <div class="formulario-contacto">
+      <h2>Formulario de Contacto</h2>
+      <form action="enviar.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
 
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required>
 
+        <label for="telefono">Número de Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu número" pattern="[0-9]{10}" required>
 
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí" required></textarea>
 
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
 
-
+  </section>
 
   <footer>
     <ul class="list-footer">

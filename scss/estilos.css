@@ -33,7 +33,7 @@
 }
 
 .titulo-desc {
-  color: rgb(87, 87, 87);
+  color: rgb(66, 66, 66);
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 30px;
@@ -76,7 +76,7 @@
   text-align: center;
   line-height: 40px;
   font-family: "Montserrat", sans-serif;
-  color: rgb(87, 87, 87);
+  color: rgb(66, 66, 66);
 }
 
 /*---------------------------------SECTION3-------------------------------------*/
@@ -234,6 +234,54 @@
 .column-card-information-container-titulo-col {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+}
+
+/*---------------------------------contact-------------------------------------*/
+.formulario-contacto {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  color: rgb(70, 70, 70);
+}
+
+.formulario-contacto h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formulario-contacto label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario-contacto button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #c14679;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formulario-contacto button:hover {
+  background-color: #8f365b;
 }
 
 header {
