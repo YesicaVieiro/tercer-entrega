@@ -1,5 +1,8 @@
 @import "variables";
 
+footer {
+  background-color: #ccc;
+}
 .list-footer {
   list-style-type: none;
   display: flex;
@@ -8,11 +11,11 @@
   gap: 2rem;
 }
 .footer-list {
-  text-decoration: none;
   color: $color-tertiary;
   font-size: $font-size-small;
   line-height: 40px;
   letter-spacing: 3px;
   cursor: pointer;
   display: block;
+  text-decoration: none;
 }

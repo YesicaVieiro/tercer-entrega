@@ -1,4 +1,8 @@
 /*---------------------------------SECTION-------------------------------------*/
+body {
+  margin: 0;
+}
+
 .principal {
   background-image: url(../img/principal-img-1.jpg);
   background-size: cover;
@@ -285,8 +289,9 @@
 }
 
 header {
-  height: 7%;
+  height: 50px;
   width: 100%;
+  padding-top: 10px;
   background-color: #dfdede;
   display: flex;
   justify-content: space-between;
@@ -305,7 +310,7 @@ header {
   display: none;
 }
 
-ist-conteiner-nav {
+.list-conteiner-nav {
   display: flex;
   gap: 30px;
   list-style-type: none;
@@ -317,9 +322,13 @@ ist-conteiner-nav {
   color: rgb(61, 61, 61);
   font-size: 18px;
   letter-spacing: 3px;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 40px;
+  padding: 5px;
   border: 2px solid transparent;
   border-radius: 5px;
-  margin-top: 10px;
+  margin-top: 50%;
   transition: all 0.4s ease;
 }
 .nav-menu-item:hover {
@@ -330,6 +339,7 @@ i {
   color: #c14679;
   cursor: pointer;
   margin-top: 20px;
+  margin-right: 20px;
 }
 
 /*----------------------------------------------------------------------*/
